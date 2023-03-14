@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+header,h1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nvc
+{
+    font-size: 50px;
+    position:relative; left: 100px; top: 50px;
+}
+
+
+#pic img{
+    
+    width: 1225px
+    ;
+
+}
+
+header .logo img {
+    width: 100px;
+    position:relative; bottom: 80px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 15px 0;
+}
+#hero1 {
+    background-color: #f2f2f2;
+    /* text-align: center; */
+    padding: 15px 0;
+    
+}
+
+
+#hero h1 {
+    font-size: 36px;
+    margin-left: 515px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#hero a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+section{background-color: gold;margin-top: 15px;padding: 5px;}
+
+
+article{background-color:white;margin-top: 10px;}
+
+/* main{width: 640px} */
+
+/* aside{float: right;} */
+footer{
+    clear: both;
+    /* margin-top: 500px; */
+    
+}
+
+
+header h3{
+    justify-content: space-between;
+    display: grid;
+    
+}
+
+#hero1 a{
+    
+    
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline;
+    text-align: right;
+    position:relative; left: 750px;
+}
+
+#hello{
+    size: 5px;
+    display: inline-block;
+}
+
+.child {
+    display: inline-block;
+}
+#parent{
+    margin-left: 10px;
+}

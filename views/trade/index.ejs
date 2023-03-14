@@ -1,0 +1,25 @@
+<%- include('../partials/header.ejs')%>
+<% if(categories.length){ %>
+    <% categories.forEach(category => { %>
+    
+        <h3><%= category %></h3>
+
+            <% if(trades.length){ %>
+                <% trades.forEach(trade => { 
+                    if (trade.category === category) { %>
+                        <div><a href = "/trades/<%= trade.id %>"><p><%=trade.title%></p></a></div>
+                        <% } });
+                } else { %>
+                    <p>There are no connections to display.</p>
+            <% } %>
+        
+    
+    <% }); %>
+<% } else { %>
+    <p>There are no categories to display.</p>
+<% } %>
+
+    <%- include('../partials/footer.ejs')%>
+
+
+
